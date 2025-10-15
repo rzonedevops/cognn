@@ -31,6 +31,7 @@ from tensorflow_gnn.models import opencog
 ```
 """
 
+from tensorflow_gnn.models.opencog import config_dict
 from tensorflow_gnn.models.opencog import layers
 from tensorflow_gnn.utils import api_utils
 
@@ -43,6 +44,13 @@ CognitiveGraphUpdate = layers.CognitiveGraphUpdate
 HyperGraphQLQuery = layers.HyperGraphQLQuery
 TruthValue = layers.TruthValue
 AttentionValue = layers.AttentionValue
+
+graph_update_get_config_dict = config_dict.graph_update_get_config_dict
+graph_update_from_config_dict = config_dict.graph_update_from_config_dict
+atom_space_get_config_dict = config_dict.atom_space_get_config_dict
+atom_space_from_config_dict = config_dict.atom_space_from_config_dict
+hypergraph_query_get_config_dict = config_dict.hypergraph_query_get_config_dict
+hypergraph_query_from_config_dict = config_dict.hypergraph_query_from_config_dict
 
 # Remove all names added by module imports, unless explicitly allowed here.
 api_utils.remove_submodules_except(__name__, [])
