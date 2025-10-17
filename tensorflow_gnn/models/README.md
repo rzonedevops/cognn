@@ -42,6 +42,8 @@ versioning](https://semver.org/spec/v2.0.0.html) of the TF-GNN package.
     of a few field-tested GNN architectures, generalizing VanillaMPNN.
   * [MultiHeadAttention](multi_head_attention/README.md): Transformer-style
     multi-head attention on graph (Dwivedi&Bresson, 2021).
+  * [OpenCog](opencog/README.md): Cognitive microkernel-based HyperGraphQL 
+    Neural Net implementing OpenCog-inspired neuro-symbolic AI.
   * [VanillaMPNN](vanilla_mpnn/README.md): TF-GNN's classic baseline model,
     based on (Gilmer&al., 2016).
 
